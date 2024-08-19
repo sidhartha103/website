@@ -563,9 +563,9 @@ section {
 }
 
 .footer {
-	padding-top: var(--mono-line-height);
+	
 	margin-left: -12px;
-	padding-bottom: .25em;
+	
 }
 
 .footer__content {

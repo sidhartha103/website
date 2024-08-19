@@ -18,7 +18,6 @@
 <source src="sidintro.Mp4" type="video/mp4">
 </video>
 </section>
-
 <div class="about">
     <div class="footer">
         <nav class="navbar">
@@ -29,10 +28,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="navbar-menu">
-                <li><a href="#about">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 </div>
@@ -41,7 +39,10 @@
     navbarMenu.classList.toggle('active');
 });
 </script>
-<textarea placeholder="Type your message… "></textarea>
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="8963e2e7-a80f-4519-880e-9eb834a611a0">
+    <textarea placeholder="Type your message… "></textarea>
+</form>
 <h1 class="about__title">
 <span class="greet">hi</span>.<br>
 <span class="are">i’m</span><br>
@@ -72,21 +73,6 @@
 <p>sid</p>
 </div>
 </section>
-<script>(function(i, s, o, g, r, a, m) {
-    i["GoogleAnalyticsObject"] = r;
-    i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments);
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m);
-})(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
-ga("create", "UA-42460075-1", "azumbrunnen.me");
-ga("send", "pageview");
-
-</script>
-</div>
 <script src="homehub.3d214d75.js" defer></script>
 
 </body>
